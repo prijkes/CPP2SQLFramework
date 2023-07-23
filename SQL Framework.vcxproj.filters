@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="cache.cc" />
+    <ClCompile Include="framework.cc" />
+    <ClCompile Include="history.cc" />
+    <ClCompile Include="http.cc" />
+    <ClCompile Include="log.cc" />
+    <ClCompile Include="mysql.cc" />
+    <ClCompile Include="sql.cc" />
+    <ClCompile Include="SQL Framework.cc" />
+    <ClCompile Include="mysql_writer.cpp" />
+    <ClCompile Include="sql_writer.cpp" />
+    <ClCompile Include="log_file.cpp" />
+    <ClCompile Include="log_console.cpp" />
+    <ClCompile Include="logger.cpp" />
+    <ClCompile Include="strings.cc" />
+    <ClCompile Include="base64.cc" />
+    <ClCompile Include="sha2.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cache.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="history.h" />
+    <ClInclude Include="http.h" />
+    <ClInclude Include="log.h" />
+    <ClInclude Include="mysql.h" />
+    <ClInclude Include="sql.h" />
+    <ClInclude Include="mysql_writer.h" />
+    <ClInclude Include="sql_writer.h" />
+    <ClInclude Include="log_file.h" />
+    <ClInclude Include="log_console.h" />
+    <ClInclude Include="logger.h" />
+    <ClInclude Include="strings.h" />
+    <ClInclude Include="base64.h" />
+    <ClInclude Include="sha2.h" />
+    <ClInclude Include="zlib\include\zconf.h" />
+    <ClInclude Include="zlib\include\zlib.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="zlib\zlib1.dll" />
+  </ItemGroup>
+</Project>
